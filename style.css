@@ -1,0 +1,34 @@
+/* Stylesheet for Odin Recipe Test Page */
+
+* {
+    background-color: rgb(224, 224, 224);
+    font-family: Georgia, 'Times New Roman', Garamond, serif
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    background-color: white;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 14px;
+}
+
+li {
+    text-align: left;
+    font-size: 14px;
+}
+
+#recipe_list{
+    display: inline-block;
+    text-align: center;
+    list-style-position: outside;
+    width: fit-content;
+}
